@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .title{font:700 58px "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#3b2f2f}
+      .subtitle{font:600 29px "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#5f7a61}
+      .head{font:700 27px "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#3b2f2f}
+      .label{font:700 22px "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#3b2f2f}
+      .body{font:500 20px "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#5c514e}
+      .cap{font:700 24px "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#fffaf3}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#b5a189" flood-opacity="0.22"/>
+    </filter>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.03 0"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#5f7a61"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="900" fill="#f5f0e6"/>
+  <rect width="1400" height="900" fill="#ffffff" opacity="0.18" filter="url(#paper)"/>
+
+  <rect x="72" y="68" width="152" height="46" rx="23" fill="#3b2f2f"/>
+  <text x="112" y="98" class="cap">漫画 4</text>
+  <text x="90" y="176" class="title">内容创作者最该先沉淀的 3 个 skill</text>
+  <text x="90" y="232" class="subtitle">先沉淀判断，再沉淀结构，最后沉淀视觉</text>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="308" width="392" height="512" rx="30" fill="#fff9f1" stroke="#dfc5a5" stroke-width="4"/>
+    <rect x="504" y="308" width="392" height="512" rx="30" fill="#fff9f1" stroke="#dfc5a5" stroke-width="4"/>
+    <rect x="934" y="308" width="392" height="512" rx="30" fill="#fff9f1" stroke="#dfc5a5" stroke-width="4"/>
+  </g>
+
+  <rect x="106" y="338" width="170" height="42" rx="21" fill="#5f7a61"/>
+  <text x="136" y="367" class="cap">选题与核验</text>
+  <rect x="536" y="338" width="170" height="42" rx="21" fill="#d66b2d"/>
+  <text x="566" y="367" class="cap">结构与改写</text>
+  <rect x="966" y="338" width="170" height="42" rx="21" fill="#f2c14e"/>
+  <text x="1006" y="367" class="label">视觉包</text>
+
+  <path d="M466 564H500" stroke="#5f7a61" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M896 564H930" stroke="#5f7a61" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="122" y="438" width="180" height="118" rx="16" fill="#fff4dc" stroke="#c69222" stroke-width="4"/>
+    <text x="150" y="480" class="label">选题方向</text>
+    <text x="150" y="516" class="body">先问这题值不值得做</text>
+    <rect x="322" y="424" width="90" height="72" rx="14" fill="#b8d4c2"/>
+    <rect x="334" y="440" width="64" height="10" rx="5" fill="#5f7a61"/>
+    <rect x="334" y="460" width="52" height="10" rx="5" fill="#5f7a61"/>
+    <rect x="322" y="514" width="90" height="72" rx="14" fill="#f0bb62"/>
+    <text x="342" y="556" class="body">来源</text>
+    <ellipse cx="190" cy="652" rx="54" ry="42" fill="#a27d64"/>
+    <ellipse cx="264" cy="644" rx="54" ry="42" fill="#a27d64"/>
+    <ellipse cx="230" cy="716" rx="108" ry="84" fill="#9f7a62"/>
+    <ellipse cx="230" cy="728" rx="78" ry="60" fill="#f2d6ae"/>
+    <circle cx="196" cy="696" r="10" fill="#2f333b"/>
+    <circle cx="268" cy="694" r="10" fill="#2f333b"/>
+    <rect x="206" y="706" width="16" height="26" rx="7" fill="#fff9f1"/>
+    <rect x="238" y="706" width="16" height="26" rx="7" fill="#fff9f1"/>
+    <path d="M216 740c14 14 28 16 40 0" fill="none" stroke="#3b2f2f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M172 618c18-28 42-38 64-30-18 20-24 38-22 60-18-2-30-10-42-30z" fill="#8f6d55"/>
+    <path d="M272 620c22-22 44-28 62-18-18 16-28 34-30 54-12-6-20-16-32-36z" fill="#8f6d55"/>
+    <rect x="286" y="642" width="106" height="70" rx="16" fill="#eff8f4" stroke="#5f7a61" stroke-width="4"/>
+    <text x="312" y="683" class="body">核验表</text>
+    <text x="112" y="778" class="head">先把判断和核验流程留下来</text>
+  </g>
+
+  <g>
+    <rect x="548" y="422" width="132" height="84" rx="14" fill="#f2c14e"/>
+    <rect x="698" y="402" width="144" height="84" rx="14" fill="#b8d4c2"/>
+    <rect x="578" y="526" width="168" height="84" rx="14" fill="#fff4dc" stroke="#c69222" stroke-width="4"/>
+    <text x="606" y="572" class="body">开头</text>
+    <text x="684" y="572" class="body">中段</text>
+    <text x="606" y="598" class="body">结尾</text>
+    <path d="M680 464h36" stroke="#5f7a61" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <path d="M662 610h70" stroke="#d66b2d" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <ellipse cx="622" cy="684" rx="54" ry="42" fill="#a27d64"/>
+    <ellipse cx="696" cy="676" rx="54" ry="42" fill="#a27d64"/>
+    <ellipse cx="662" cy="748" rx="108" ry="84" fill="#9f7a62"/>
+    <ellipse cx="662" cy="760" rx="78" ry="60" fill="#f2d6ae"/>
+    <circle cx="628" cy="728" r="10" fill="#2f333b"/>
+    <circle cx="700" cy="726" r="10" fill="#2f333b"/>
+    <rect x="638" y="738" width="16" height="26" rx="7" fill="#fff9f1"/>
+    <rect x="670" y="738" width="16" height="26" rx="7" fill="#fff9f1"/>
+    <path d="M648 772c14 14 28 16 40 0" fill="none" stroke="#3b2f2f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M604 650c18-28 42-38 64-30-18 20-24 38-22 60-18-2-30-10-42-30z" fill="#8f6d55"/>
+    <path d="M704 652c22-22 44-28 62-18-18 16-28 34-30 54-12-6-20-16-32-36z" fill="#8f6d55"/>
+    <rect x="764" y="622" width="104" height="88" rx="16" fill="#fff4dc" stroke="#c69222" stroke-width="4"/>
+    <text x="782" y="660" class="body">结构卡</text>
+    <text x="782" y="690" class="body">改写框架</text>
+    <text x="544" y="778" class="head">把能复用的结构和改写方法收住</text>
+  </g>
+
+  <g>
+    <rect x="960" y="424" width="108" height="150" rx="16" fill="#fff4dc" stroke="#c69222" stroke-width="4"/>
+    <rect x="978" y="446" width="72" height="14" rx="7" fill="#d66b2d"/>
+    <rect x="978" y="472" width="54" height="10" rx="5" fill="#5f7a61"/>
+    <rect x="978" y="490" width="62" height="10" rx="5" fill="#5f7a61"/>
+    <text x="978" y="532" class="body">封面</text>
+    <rect x="1088" y="448" width="92" height="60" rx="14" fill="#b8d4c2"/>
+    <text x="1112" y="484" class="body">配图</text>
+    <rect x="1200" y="430" width="90" height="24" rx="12" fill="#d66b2d"/>
+    <rect x="1200" y="468" width="110" height="16" rx="8" fill="#f2c14e"/>
+    <rect x="1200" y="500" width="92" height="16" rx="8" fill="#5f7a61"/>
+    <text x="1202" y="546" class="body">标题条</text>
+    <ellipse cx="1052" cy="694" rx="54" ry="42" fill="#a27d64"/>
+    <ellipse cx="1126" cy="686" rx="54" ry="42" fill="#a27d64"/>
+    <ellipse cx="1092" cy="758" rx="108" ry="84" fill="#9f7a62"/>
+    <ellipse cx="1092" cy="770" rx="78" ry="60" fill="#f2d6ae"/>
+    <circle cx="1058" cy="738" r="10" fill="#2f333b"/>
+    <circle cx="1130" cy="736" r="10" fill="#2f333b"/>
+    <rect x="1068" y="748" width="16" height="26" rx="7" fill="#fff9f1"/>
+    <rect x="1100" y="748" width="16" height="26" rx="7" fill="#fff9f1"/>
+    <path d="M1078 782c14 14 28 16 40 0" fill="none" stroke="#3b2f2f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1034 660c18-28 42-38 64-30-18 20-24 38-22 60-18-2-30-10-42-30z" fill="#8f6d55"/>
+    <path d="M1134 662c22-22 44-28 62-18-18 16-28 34-30 54-12-6-20-16-32-36z" fill="#8f6d55"/>
+    <rect x="1182" y="634" width="108" height="82" rx="16" fill="#eff8f4" stroke="#5f7a61" stroke-width="4"/>
+    <text x="1202" y="674" class="body">视觉包</text>
+    <text x="958" y="778" class="head">封面、配图、标题条一起打包沉淀</text>
+  </g>
+</svg>
